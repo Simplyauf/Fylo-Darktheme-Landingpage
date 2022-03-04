@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply list-none text-gray-300 cursor-pointer;
+  }
+  li:hover {
+    @apply text-white;
+  }
+  .nav li:hover {
+    @apply transition-all ease-in border-b-2 border-solid border-white;
+  }
+  button:hover {
+    @apply transition-all font-extrabold bg-gradient-to-r from-cyan-300 to-cyan-300;
+  }
+}
+/* "border-b-2 border-solid border-white */
