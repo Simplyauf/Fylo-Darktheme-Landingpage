@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-  "build":"tailwindcss -i src/styles.css -o public/output.css -w"
+    "build": "tailwindcss -i src/styles.css -o docs/output.css -w"
   },
   "keywords": [],
   "author": "",
